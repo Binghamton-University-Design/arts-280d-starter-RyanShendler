@@ -1,0 +1,53 @@
+/*stylesheet*/
+
+body{
+	background-color: #d9b825;
+	color: #333333;
+	font-family: 'Lora', serif;
+	/*background: url('../images/washington_state.jpg');
+	background-size: cover;
+	background-repeat: no repeat;*/
+}
+
+#wrapper{
+	margin: 2em auto;
+	max-width: 960px;
+	padding: 0 2em;
+}
+
+.article{
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 2em 0;
+}
+
+h1, h2, h3, p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+}
+
+p.byline{
+	font-weight: 505;
+}
+
+p{
+	line-height: 1.5;
+}
+
+a{
+	color: #e38a0e;
+}
+
+a:hover{
+	text-decoration: none;
+}
