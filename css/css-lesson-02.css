@@ -4,9 +4,9 @@ body{
 	background-color: #d9b825;
 	color: #333333;
 	font-family: 'Lora', serif;
-	/*background: url('../images/washington_state.jpg');
+	background: url('../images/washington_state.jpg');
 	background-size: cover;
-	background-repeat: no repeat;*/
+	background-repeat: no repeat;
 }
 
 #wrapper{
