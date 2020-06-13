@@ -1,0 +1,30 @@
+/*stylesheet*/
+
+body{
+	color: #000;
+	font-size: 16px;
+	font-family: 'Lora', serif;
+}
+
+#wrapper{
+	margin: 2em auto;
+	max-width: 960px;
+	padding: 0 20px;
+}
+
+.grid{
+	display: grid;
+	/*grid-auto-flow: dense;*/
+	grid-gap: 1rem;
+	/*grid-template-columns: 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid div{
+	padding: 1rem;
+	background-color: rgba(0,0,0,0.1);
+}
+
+#masthead, #main{
+	margin-bottom: 2rem;
+}
